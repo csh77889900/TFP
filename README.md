@@ -1,11 +1,4 @@
-# TopFreeProxies
-
-## 仓库介绍
-本仓库自动化功能全部基于 `GitHub Actions` 实现，如有需要可以自行 Fork 实现个性化需求，功能配置在 `./utils/config.ini` 配置文件中。
-
-对网络上各免费节点池及博主分享的节点进行测速筛选出较为稳定高速的节点，再导入到仓库中进行分享记录。所筛选的节点链接在仓库 `./sub/sub_list.json` 文件中，其中大部分为其他 `GitHub` 仓库链接，如果大家有好的订阅链接欢迎提交 PR ，这些链接包含的所有节点会合并在仓库 `./sub/sub_merge.txt` 中。
-
-测速筛选后的节点订阅文件在仓库根目录 `Eterniy`(Base64) 和 `Eternity.yaml`(Clash)。同时在仓库的 `./update` 中保留了原始节点链接的的记录。
+# TFP
 
 订阅转换使用 [subconverter](https://github.com/tindy2013/subconverter) 实现，测速功能使用 [LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest) 在 `GitHub Actions` 环境下实现，所以美国节点较多，不能很好代表国内网络环境下节点可用性，目前正在解决这一问题。
 
@@ -131,33 +124,6 @@
 ### 所有节点
 合并节点总数: `1013`
 [节点链接](https://raw.githubusercontent.com/csh77889900/TFP/master/sub/sub_merge_base64.txt)
-
-### 节点来源
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `94`
-- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `156`
-- [freefq/free](https://github.com/freefq/free), 节点数量: `38`
-- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `90`
-- [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `1`
-- [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `21`
-- [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `42`
-- [ssrsub/ssr](https://github.com/ssrsub/ssr), 节点数量: `213`
-- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `324`
-- [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `1`
-- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `36`
-- [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `41`
-- [wrfree/free](https://github.com/wrfree/free), 节点数量: `51`
-- [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `53`
-- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `215`
-- [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `72`
-- [mhmhone/shadowrocket-free-subscribe](https://github.com/mhmhone/shadowrocket-free-subscribe), 节点数量: `1`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `38`
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `13`
-- [kxswa/k](https://github.com/kxswa/k), 节点数量: `1`
-- [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `50`
-- [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), 节点数量: `2790`
-- [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `247`
-- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `288`
-- [ClashNode](https://clashnode.com/f/freenode), 节点数量: `50`
 
 
 ## 仓库声明
