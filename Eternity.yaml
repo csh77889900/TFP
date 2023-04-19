@@ -6,97 +6,97 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇭🇰 _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.25, port: 49920, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 github.com/freefq - 香港  1, server: 156.245.8.246, port: 49920, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_0419025, server: 156.245.8.248, port: 49920, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_0419101, server: 156.245.8.196, port: 42294, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP-43.207.118.38-010..., server: 43.207.118.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 South Korea 03 TG@SSRSUB, server: 131.186.21.62, port: 4433, type: ss, cipher: aes-256-gcm, password: yy595721}
-  - {name: 🇯🇵 日本_0419042, server: 150.230.58.227, port: 16650, type: vmess, uuid: d66a47f2-5136-492c-c82a-74835bb03a76, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 _HK_香港_5, server: hk80.8b750e3e20aa.sanfen004.me, port: 80, type: vmess, uuid: 1172d7fe-4a5d-4d07-92f6-aefa4212347f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: hk80.8b750e3e20aa.sanfen004.me}}}
-  - {name: 🇰🇷 韩国_0419001, server: 144.24.72.125, port: 39867, type: vmess, uuid: 1c1d94dc-e79b-4a24-dc9f-7afa92539a80, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0419433, server: 188.166.188.209, port: 80, type: vmess, uuid: addbf473-e902-419d-b18d-74dcf1a4799a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ph5gvpn}}
-  - {name: 🇸🇬 新加坡_0419010, server: 209.97.161.181, port: 80, type: vmess, uuid: 4b56da6d-a62e-40e0-85b7-fc7a7ca31c46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇸🇬 SG-139.162.5.19-0838..., server: 139.162.5.19, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇭🇰 香港_0419025, server: 156.245.8.248, port: 49920, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 github.com/freefq - 香港  1, server: 156.245.8.246, port: 49920, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0419036, server: 45.88.43.133, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0419070, server: 132.226.5.189, port: 26369, type: vmess, uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 South Korea 03 TG@SSRSUB, server: 131.186.21.62, port: 4433, type: ss, cipher: aes-256-gcm, password: yy595721}
+  - {name: 🇯🇵 日本 049, server: m4.40010010.xyz, port: 37121, type: vmess, uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇭🇰 _HK_香港_5, server: hk80.8b750e3e20aa.sanfen004.me, port: 80, type: vmess, uuid: 1172d7fe-4a5d-4d07-92f6-aefa4212347f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: hk80.8b750e3e20aa.sanfen004.me}}}
+  - {name: 🇸🇬 新加坡_0419010, server: 209.97.161.181, port: 80, type: vmess, uuid: 4b56da6d-a62e-40e0-85b7-fc7a7ca31c46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇰🇷 韩国_0419001, server: 144.24.72.125, port: 39867, type: vmess, uuid: 1c1d94dc-e79b-4a24-dc9f-7afa92539a80, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG-139.162.5.19-0838..., server: 139.162.5.19, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇯🇵 日本_0419042, server: 150.230.58.227, port: 16650, type: vmess, uuid: d66a47f2-5136-492c-c82a-74835bb03a76, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾【付费推荐：v1.mk/vip】35, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_0419024, server: 18.143.123.35, port: 80, type: vmess, uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇰🇷 韩国_0419005, server: 140.238.1.117, port: 80, type: vmess, uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gmp}}
-  - {name: 🇭🇰 _HK_香港 3, server: petal.ga, port: 443, type: vmess, uuid: b744f5cc-eab2-d2cd-f477-76646d17987f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /petalvws, headers: {Host: petal.ga}}}
+  - {name: 🇯🇵 日本_0419070, server: 132.226.5.189, port: 26369, type: vmess, uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0419023, server: 138.2.14.220, port: 33421, type: vmess, uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 010, server: 85.208.108.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Relay_-🇸🇬SG_1493, server: n1680936779.lyqrdde.cn, port: 443, type: vmess, uuid: 80ea4eb1-e85e-4438-8657-50f43fcef461, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1680936779.lyqrdde.cn}}}
   - {name: 🇭🇰 香港【付费推荐：v1.mk/vip】39, server: n1680936772.edpmvga.cn, port: 443, type: vmess, uuid: a8054320-efe0-4ce0-a1a6-7d616105f354, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1680936772.edpmvga.cn}}}
-  - {name: 🇨🇳 台湾【付费推荐：v1.mk/vip】35, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 010, server: 85.208.108.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇸🇬 SG-139.162.41.174-55..., server: 139.162.41.174, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: 🇯🇵 _JP_日本 2, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0419052, server: 27.124.43.74, port: 53111, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_-🇸🇬SG_1503, server: n1680936779.lyqrdde.cn, port: 443, type: vmess, uuid: 80ea4eb1-e85e-4438-8657-50f43fcef461, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1680936779.lyqrdde.cn}}}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 18.176.56.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 新加坡_0419020, server: 15.235.166.61, port: 10000, type: vmess, uuid: 89dc26f4-da91-11ed-9e06-1b87fe270149, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇰🇷 韩国_0419002, server: 118.193.69.158, port: 53173, type: vmess, uuid: 3b76d1a8-55fd-465e-aa04-68c39a506175, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_0419052, server: 27.124.43.74, port: 53111, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 Hong Kong(ChatGPT) 37 TG@SSRSUB, server: 27.124.40.83, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 _SG_新加坡->🇮🇩_ID_印度尼西亚, server: asia.artunnel57.host, port: 80, type: vmess, uuid: 65e44501-defd-4609-a4e3-7028dc417b50, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess-ntls, headers: {Host: asia.artunnel57.host}}}
-  - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: Relay_-🇸🇬SG_1500, server: n1681621066.aqdisrv.cn, port: 443, type: vmess, uuid: 53db1eec-c00c-4d4e-9967-df0241c8ba00, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1681621066.aqdisrv.cn}}}
   - {name: 🇭🇰 _HK_香港_6, server: tr.dns.tlz.asia, port: 1231, type: trojan, password: bHlD0P4J1B, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 026, server: 27.50.63.78, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 010, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /reffs7y26g0ua, headers: {Host: surongwei.eu.org}}}
+  - {name: 🇭🇰 香港A|tg频道@ripaojiedian, server: n1681279108.lyqrdde.cn, port: 443, type: vmess, uuid: 820796b9-fc3b-499e-87ae-0a3d83ab4962, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1681279108.lyqrdde.cn}}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: 🇯🇵 _JP_日本_1, server: jp2.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
+  - {name: 🇰🇷 韩国 010 2, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /reffs7y26g0ua, headers: {Host: surongwei.eu.org}}}
+  - {name: 🇭🇰 香港 027, server: 27.50.63.78, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 _KR_韩国 3, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /reffs7y26g0ua, headers: {Host: surongwei.eu.org}}}
+  - {name: 🇰🇷 _KR_韩国, server: 43.201.14.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_0419001, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: eb227553-c47b-4c55-bbf7-c745311c8718, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_0419433, server: 188.166.188.209, port: 80, type: vmess, uuid: addbf473-e902-419d-b18d-74dcf1a4799a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ph5gvpn}}
+  - {name: 🇰🇷 韩国_0419002, server: 118.193.69.158, port: 53173, type: vmess, uuid: 3b76d1a8-55fd-465e-aa04-68c39a506175, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_0419081, server: 1.171.219.239, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 Japan(ChatGPT) 13 TG@SSRSUB, server: zzjp01.gutingting.com, port: 20220, type: trojan, password: ac02ce33-c478-4682-b26d-6b05223a2d89, sni: zzjp01.gutingting.com, skip-cert-verify: false}
   - {name: 🇸🇬 Singapore 03 TG@SSRSUB, server: 316sg01.ljydw.top, port: 443, type: trojan, password: 4d128a6d-eaf9-4ae2-8665-f39b1d492e7c, sni: 316sg01.ljydw.top, skip-cert-verify: false}
   - {name: 🇨🇳 Taiwan(ChatGPT) 11 TG@SSRSUB, server: 805tw.ljydw.top, port: 443, type: trojan, password: 4d128a6d-eaf9-4ae2-8665-f39b1d492e7c, sni: 805tw.ljydw.top, skip-cert-verify: false}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 10 TG@SSRSUB, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: false}
   - {name: 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB, server: 625tw.ljydw.top, port: 80, type: trojan, password: 4d128a6d-eaf9-4ae2-8665-f39b1d492e7c, sni: 625tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 08 TG@SSRSUB, server: 0309tw.ljydw.top, port: 443, type: trojan, password: 4d128a6d-eaf9-4ae2-8665-f39b1d492e7c, sni: 0309tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 07 TG@SSRSUB, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 44 TG@SSRSUB, server: as.steamdownload.top, port: 36616, type: trojan, password: 41ad2e0c-c130-43f2-a612-2cc1baea3f7c, sni: datahk.steamdownload.top, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 09 TG@SSRSUB, server: as.steamdownload.top, port: 36611, type: trojan, password: 41ad2e0c-c130-43f2-a612-2cc1baea3f7c, sni: datahk.steamdownload.top, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong(ChatGPT) 08 TG@SSRSUB, server: hk12.microsoftjs.top, port: 443, type: trojan, password: 932fb8f8-e1ca-4339-9d71-2d74757fca41, sni: tls.microsoftjs.top, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 07 TG@SSRSUB, server: hk14.microsoftjs.top, port: 443, type: trojan, password: 932fb8f8-e1ca-4339-9d71-2d74757fca41, sni: tls.microsoftjs.top, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 04 TG@SSRSUB, server: hk10.microsoftjs.top, port: 443, type: trojan, password: 932fb8f8-e1ca-4339-9d71-2d74757fca41, sni: tls.microsoftjs.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_0419143, server: 23.224.15.73, port: 51552, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 United States(ChatGPT) 36 TG@SSRSUB, server: 23.224.14.116, port: 51552, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0419652, server: rnrn3g.555456.xyz, port: 443, type: vmess, uuid: 17c6c64e-eb3c-44ae-98f8-d469713f91f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lpkuvws, headers: {Host: rnrn3g.555456.xyz}}}
-  - {name: 🇺🇸 美国_0419887, server: 172.67.13.13, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
   - {name: 🇺🇸 美国_0419888, server: 172.67.70.13, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
-  - {name: 🇺🇸 美国_04191292, server: 192.74.242.139, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419089, server: 192.74.242.138, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_04191247, server: 142.4.126.113, port: 50032, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419003, server: 108.186.192.251, port: 35502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419092, server: 142.4.99.69, port: 41169, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_04191293, server: 192.74.242.150, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419957, server: 108.186.192.249, port: 35502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419949, server: 137.175.41.194, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419335, server: 142.4.108.22, port: 55102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_04191291, server: 192.74.242.147, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419373, server: 198.2.205.68, port: 30402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 6, server: 198.2.218.220, port: 51202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419908, server: 137.175.15.195, port: 43487, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国, server: 203.30.188.100, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
+  - {name: 🇺🇸 美国_0419728, server: 198.2.201.11, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0419438, server: 137.175.3.226, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0419889, server: 172.64.195.14, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
-  - {name: 🇺🇸 美国_0419321, server: 38.63.19.88, port: 57007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US-65.49.223.117-074..., server: 65.49.223.117, port: 239, type: ss, cipher: aes-256-cfb, password: bwhskrskr06}
-  - {name: 🇺🇸 美国_0419890, server: 172.64.194.14, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
-  - {name: 🇺🇸 美国_04191286, server: 192.74.242.149, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419152, server: 142.4.114.21, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419949, server: 137.175.41.194, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419188, server: 38.40.219.183, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419392, server: 198.2.205.66, port: 30402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419088, server: 142.4.126.54, port: 33302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419731, server: 142.0.135.122, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_04193722, server: 192.74.229.216, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419957, server: 108.186.192.249, port: 35502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419098, server: 192.74.228.174, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419338, server: 45.131.229.59, port: 41602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419429, server: 192.74.228.173, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419385, server: 107.148.195.17, port: 50014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419584, server: 198.2.203.54, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419330, server: 142.4.113.102, port: 59022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419393, server: 107.148.195.15, port: 50014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419578, server: 45.131.229.58, port: 41602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419830, server: 38.63.19.86, port: 57007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419908, server: 137.175.15.195, port: 43487, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0419017, server: 140.99.59.216, port: 53032, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇾 塞浦路斯_0419006, server: 203.24.108.100, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
+  - {name: 🇨🇳 China 03 TG@SSRSUB, server: 142.4.127.4, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇷 4Iran-6953, server: 142.4.119.205, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 未知_0419237, server: 190.93.245.4, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
+  - {name: 塞舌尔_0419002, server: 156.251.135.11, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 未知_0419238, server: 141.101.115.32, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
-  - {name: 🇺🇸 United States 03 TG@SSRSUB, server: 38.54.250.54, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 _FR_法国_1, server: 54.37.185.148, port: 32894, type: trojan, password: HchlVCfnXB, sni: fararu.com, skip-cert-verify: true}
+  - {name: 未知_0419236, server: 162.159.58.14, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
+  - {name: 🇺🇸 United States 09 TG@SSRSUB, server: 192.74.232.247, port: 51802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国 004, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.196-08..., server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.198-07..., server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.193-07..., server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.78-078..., server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.195-07..., server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.80-078..., server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.81-078..., server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 GB-212.102.53.197-07..., server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇳🇱 荷兰_0419052, server: 45.63.40.225, port: 80, type: vmess, uuid: 2e435089-1084-4491-97ef-f42954c797bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jSK9giWy0EzboIGfto}}
+  - {name: 🇫🇷 _FR_法国, server: 92.222.209.100, port: 47021, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇩🇪 DE-89.163.140.153-07..., server: 89.163.140.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-6717, server: 142.4.119.205, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 Netherlands(ChatGPT) 07 TG@SSRSUB, server: 156.245.8.166, port: 49920, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国_0419010, server: 156.249.18.233, port: 42533, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 FR-195.154.185.174-0..., server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇳🇱 荷兰_0419016, server: 154.84.1.31, port: 44202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 Netherlands(ChatGPT) 01 TG@SSRSUB, server: 156.245.8.66, port: 49519, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0419017, server: 154.84.1.201, port: 41154, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE-143.42.26.44-0812..., server: 143.42.26.44, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0r91Aj1MeFRSvoy6}
-  - {name: 🇩🇪 DE-172.105.251.205-0..., server: 172.105.251.205, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0r91Aj1MeFRSvoy6}
-  - {name: 🇩🇪 德国_0419011, server: 130.61.179.77, port: 20574, type: vmess, uuid: 87e3048a-5932-457a-84b9-deb51b5c91cd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE-172.104.132.14-08..., server: 172.104.132.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0r91Aj1MeFRSvoy6}
+  - {name: SA-51.15.0.113-0786 | ..., server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: CH-156.146.62.160-0800..., server: 156.146.62.160, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇳🇱 荷兰_0419001, server: 46.182.107.15, port: 51332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE-157.90.4.240-0815..., server: 157.90.4.240, port: 19488, type: ss, cipher: aes-256-cfb, password: e8301e5bd3}
-  - {name: 🇩🇪 Germany(ChatGPT) 03 TG@SSRSUB, server: f-eu1.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
-  - {name: "|19.52Mb", server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false}
-  - {name: EC-179.49.5.114-0819 |..., server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇳🇱 荷兰_0419030, server: 188.114.97.2, port: 8880, type: vmess, uuid: 51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ArsalanTauBot, headers: {Host: 4.mamadcucu.com}}}
-  - {name: CL-190.120.230.9-0793 ..., server: 190.120.230.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇵🇱 PL-51.77.57.30-0846 ..., server: 51.77.57.30, port: 19152, type: ss, cipher: aes-256-cfb, password: ae9c899be3}
+  - {name: 🇫🇷 _FR_法国_1, server: 54.37.185.148, port: 32894, type: trojan, password: HchlVCfnXB, sni: fararu.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,97 +113,97 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 github.com/freefq - 香港  1
-      - 🇭🇰 香港_0419025
       - 🇭🇰 香港_0419101
-      - 🇯🇵 JP-43.207.118.38-010...
-      - 🇰🇷 South Korea 03 TG@SSRSUB
-      - 🇯🇵 日本_0419042
-      - 🇭🇰 _HK_香港_5
-      - 🇰🇷 韩国_0419001
-      - 🇸🇬 新加坡_0419433
-      - 🇸🇬 新加坡_0419010
-      - 🇸🇬 SG-139.162.5.19-0838...
+      - 🇭🇰 香港_0419025
+      - 🇭🇰 github.com/freefq - 香港  1
       - 🇯🇵 日本_0419036
-      - 🇯🇵 日本_0419070
+      - 🇰🇷 South Korea 03 TG@SSRSUB
+      - 🇯🇵 日本 049
+      - 🇭🇰 _HK_香港_5
+      - 🇸🇬 新加坡_0419010
+      - 🇰🇷 韩国_0419001
+      - 🇸🇬 SG-139.162.5.19-0838...
+      - 🇯🇵 日本_0419042
+      - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
       - 🇸🇬 新加坡_0419024
       - 🇰🇷 韩国_0419005
-      - 🇭🇰 _HK_香港 3
+      - 🇯🇵 日本_0419070
       - 🇯🇵 日本_0419023
-      - 🇯🇵 日本 010
+      - Relay_-🇸🇬SG_1493
       - 🇭🇰 香港【付费推荐：v1.mk/vip】39
-      - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
+      - 🇯🇵 日本 010
       - 🇸🇬 SG-139.162.41.174-55...
-      - 🇯🇵 _JP_日本 2
-      - 🇸🇬 新加坡_0419052
-      - Relay_-🇸🇬SG_1503
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0419020
-      - 🇰🇷 韩国_0419002
+      - 🇸🇬 新加坡_0419052
+      - 🇭🇰 Hong Kong(ChatGPT) 37 TG@SSRSUB
       - 🇸🇬 _SG_新加坡->🇮🇩_ID_印度尼西亚
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - Relay_-🇸🇬SG_1500
       - 🇭🇰 _HK_香港_6
-      - 🇭🇰 香港 026
-      - 🇰🇷 韩国 010
+      - 🇭🇰 香港A|tg频道@ripaojiedian
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 _JP_日本_1
+      - 🇰🇷 韩国 010 2
+      - 🇭🇰 香港 027
+      - 🇰🇷 _KR_韩国 3
+      - 🇰🇷 _KR_韩国
+      - 🇯🇵 日本_0419001
+      - 🇸🇬 新加坡_0419433
+      - 🇰🇷 韩国_0419002
+      - 🇨🇳 台湾_0419081
       - 🇯🇵 Japan(ChatGPT) 13 TG@SSRSUB
       - 🇸🇬 Singapore 03 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 11 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 07 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 44 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 09 TG@SSRSUB
-      - 🇭🇰 Hong Kong(ChatGPT) 08 TG@SSRSUB
-      - 🇭🇰 Hong Kong 07 TG@SSRSUB
-      - 🇭🇰 Hong Kong 04 TG@SSRSUB
-      - 🇺🇸 美国_0419143
-      - 🇺🇸 United States(ChatGPT) 36 TG@SSRSUB
       - 🇺🇸 美国_0419652
-      - 🇺🇸 美国_0419887
       - 🇺🇸 美国_0419888
-      - 🇺🇸 美国_04191292
-      - 🇺🇸 美国_0419089
-      - 🇺🇸 美国_04191247
-      - 🇺🇸 美国_0419003
-      - 🇺🇸 美国_0419092
-      - 🇺🇸 美国_04191293
-      - 🇺🇸 美国_0419957
-      - 🇺🇸 美国_0419949
-      - 🇺🇸 美国_0419335
-      - 🇺🇸 美国_04191291
-      - 🇺🇸 美国_0419373
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 美国_0419908
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 🇺🇸 美国_0419728
       - 🇺🇸 美国_0419438
-      - 🇺🇸 美国_0419889
-      - 🇺🇸 美国_0419321
-      - 🇺🇸 US-65.49.223.117-074...
-      - 🇺🇸 美国_0419890
-      - 🇺🇸 美国_04191286
+      - 🇺🇸 美国_0419152
+      - 🇺🇸 美国_0419949
+      - 🇺🇸 美国_0419188
+      - 🇺🇸 美国_0419392
+      - 🇺🇸 美国_0419088
+      - 🇺🇸 美国_0419731
+      - 🇺🇸 美国_04193722
+      - 🇺🇸 美国_0419957
+      - 🇺🇸 美国_0419098
+      - 🇺🇸 美国_0419338
+      - 🇺🇸 美国_0419429
+      - 🇺🇸 美国_0419385
+      - 🇺🇸 美国_0419584
+      - 🇺🇸 美国_0419330
+      - 🇺🇸 美国_0419393
+      - 🇺🇸 美国_0419578
+      - 🇺🇸 美国_0419830
+      - 🇺🇸 美国_0419908
+      - 🇺🇸 美国_0419017
+      - 🇨🇾 塞浦路斯_0419006
+      - 🇨🇳 China 03 TG@SSRSUB
+      - 🇮🇷 4Iran-6953
+      - 未知_0419237
+      - 塞舌尔_0419002
       - 未知_0419238
-      - 🇺🇸 United States 03 TG@SSRSUB
-      - 🇫🇷 _FR_法国_1
+      - 未知_0419236
+      - 🇺🇸 United States 09 TG@SSRSUB
+      - 🇬🇧 英国 004
+      - 🇬🇧 GB-212.102.53.196-08...
+      - 🇬🇧 GB-212.102.53.198-07...
+      - GB_07
+      - 🇬🇧 GB-212.102.53.193-07...
+      - 🇬🇧 GB-212.102.53.78-078...
+      - 🇬🇧 GB-212.102.53.195-07...
+      - 🇬🇧 GB-212.102.53.80-078...
+      - 🇬🇧 GB-212.102.53.81-078...
+      - 🇬🇧 GB-212.102.53.197-07...
+      - 🇳🇱 荷兰_0419052
+      - 🇫🇷 _FR_法国
       - 🇩🇪 DE-89.163.140.153-07...
-      - 4Nika-6717
-      - 🇳🇱 Netherlands(ChatGPT) 07 TG@SSRSUB
-      - 🇫🇷 法国_0419010
-      - 🇫🇷 FR-195.154.185.174-0...
-      - 🇳🇱 荷兰_0419016
-      - 🇳🇱 Netherlands(ChatGPT) 01 TG@SSRSUB
-      - 🇳🇱 荷兰_0419017
-      - 🇩🇪 DE-143.42.26.44-0812...
-      - 🇩🇪 DE-172.105.251.205-0...
-      - 🇩🇪 德国_0419011
-      - 🇩🇪 DE-172.104.132.14-08...
+      - SA-51.15.0.113-0786 | ...
       - CH-156.146.62.160-0800...
-      - 🇳🇱 荷兰_0419001
-      - 🇩🇪 DE-157.90.4.240-0815...
-      - 🇩🇪 Germany(ChatGPT) 03 TG@SSRSUB
-      - "|19.52Mb"
-      - EC-179.49.5.114-0819 |...
-      - 🇳🇱 荷兰_0419030
-      - CL-190.120.230.9-0793 ...
-      - 🇵🇱 PL-51.77.57.30-0846 ...
+      - 🇫🇷 _FR_法国_1
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -255,97 +255,97 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 github.com/freefq - 香港  1
-      - 🇭🇰 香港_0419025
       - 🇭🇰 香港_0419101
-      - 🇯🇵 JP-43.207.118.38-010...
-      - 🇰🇷 South Korea 03 TG@SSRSUB
-      - 🇯🇵 日本_0419042
-      - 🇭🇰 _HK_香港_5
-      - 🇰🇷 韩国_0419001
-      - 🇸🇬 新加坡_0419433
-      - 🇸🇬 新加坡_0419010
-      - 🇸🇬 SG-139.162.5.19-0838...
+      - 🇭🇰 香港_0419025
+      - 🇭🇰 github.com/freefq - 香港  1
       - 🇯🇵 日本_0419036
-      - 🇯🇵 日本_0419070
+      - 🇰🇷 South Korea 03 TG@SSRSUB
+      - 🇯🇵 日本 049
+      - 🇭🇰 _HK_香港_5
+      - 🇸🇬 新加坡_0419010
+      - 🇰🇷 韩国_0419001
+      - 🇸🇬 SG-139.162.5.19-0838...
+      - 🇯🇵 日本_0419042
+      - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
       - 🇸🇬 新加坡_0419024
       - 🇰🇷 韩国_0419005
-      - 🇭🇰 _HK_香港 3
+      - 🇯🇵 日本_0419070
       - 🇯🇵 日本_0419023
-      - 🇯🇵 日本 010
+      - Relay_-🇸🇬SG_1493
       - 🇭🇰 香港【付费推荐：v1.mk/vip】39
-      - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
+      - 🇯🇵 日本 010
       - 🇸🇬 SG-139.162.41.174-55...
-      - 🇯🇵 _JP_日本 2
-      - 🇸🇬 新加坡_0419052
-      - Relay_-🇸🇬SG_1503
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0419020
-      - 🇰🇷 韩国_0419002
+      - 🇸🇬 新加坡_0419052
+      - 🇭🇰 Hong Kong(ChatGPT) 37 TG@SSRSUB
       - 🇸🇬 _SG_新加坡->🇮🇩_ID_印度尼西亚
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - Relay_-🇸🇬SG_1500
       - 🇭🇰 _HK_香港_6
-      - 🇭🇰 香港 026
-      - 🇰🇷 韩国 010
+      - 🇭🇰 香港A|tg频道@ripaojiedian
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 _JP_日本_1
+      - 🇰🇷 韩国 010 2
+      - 🇭🇰 香港 027
+      - 🇰🇷 _KR_韩国 3
+      - 🇰🇷 _KR_韩国
+      - 🇯🇵 日本_0419001
+      - 🇸🇬 新加坡_0419433
+      - 🇰🇷 韩国_0419002
+      - 🇨🇳 台湾_0419081
       - 🇯🇵 Japan(ChatGPT) 13 TG@SSRSUB
       - 🇸🇬 Singapore 03 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 11 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 07 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 44 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 09 TG@SSRSUB
-      - 🇭🇰 Hong Kong(ChatGPT) 08 TG@SSRSUB
-      - 🇭🇰 Hong Kong 07 TG@SSRSUB
-      - 🇭🇰 Hong Kong 04 TG@SSRSUB
-      - 🇺🇸 美国_0419143
-      - 🇺🇸 United States(ChatGPT) 36 TG@SSRSUB
       - 🇺🇸 美国_0419652
-      - 🇺🇸 美国_0419887
       - 🇺🇸 美国_0419888
-      - 🇺🇸 美国_04191292
-      - 🇺🇸 美国_0419089
-      - 🇺🇸 美国_04191247
-      - 🇺🇸 美国_0419003
-      - 🇺🇸 美国_0419092
-      - 🇺🇸 美国_04191293
-      - 🇺🇸 美国_0419957
-      - 🇺🇸 美国_0419949
-      - 🇺🇸 美国_0419335
-      - 🇺🇸 美国_04191291
-      - 🇺🇸 美国_0419373
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 美国_0419908
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 🇺🇸 美国_0419728
       - 🇺🇸 美国_0419438
-      - 🇺🇸 美国_0419889
-      - 🇺🇸 美国_0419321
-      - 🇺🇸 US-65.49.223.117-074...
-      - 🇺🇸 美国_0419890
-      - 🇺🇸 美国_04191286
+      - 🇺🇸 美国_0419152
+      - 🇺🇸 美国_0419949
+      - 🇺🇸 美国_0419188
+      - 🇺🇸 美国_0419392
+      - 🇺🇸 美国_0419088
+      - 🇺🇸 美国_0419731
+      - 🇺🇸 美国_04193722
+      - 🇺🇸 美国_0419957
+      - 🇺🇸 美国_0419098
+      - 🇺🇸 美国_0419338
+      - 🇺🇸 美国_0419429
+      - 🇺🇸 美国_0419385
+      - 🇺🇸 美国_0419584
+      - 🇺🇸 美国_0419330
+      - 🇺🇸 美国_0419393
+      - 🇺🇸 美国_0419578
+      - 🇺🇸 美国_0419830
+      - 🇺🇸 美国_0419908
+      - 🇺🇸 美国_0419017
+      - 🇨🇾 塞浦路斯_0419006
+      - 🇨🇳 China 03 TG@SSRSUB
+      - 🇮🇷 4Iran-6953
+      - 未知_0419237
+      - 塞舌尔_0419002
       - 未知_0419238
-      - 🇺🇸 United States 03 TG@SSRSUB
-      - 🇫🇷 _FR_法国_1
+      - 未知_0419236
+      - 🇺🇸 United States 09 TG@SSRSUB
+      - 🇬🇧 英国 004
+      - 🇬🇧 GB-212.102.53.196-08...
+      - 🇬🇧 GB-212.102.53.198-07...
+      - GB_07
+      - 🇬🇧 GB-212.102.53.193-07...
+      - 🇬🇧 GB-212.102.53.78-078...
+      - 🇬🇧 GB-212.102.53.195-07...
+      - 🇬🇧 GB-212.102.53.80-078...
+      - 🇬🇧 GB-212.102.53.81-078...
+      - 🇬🇧 GB-212.102.53.197-07...
+      - 🇳🇱 荷兰_0419052
+      - 🇫🇷 _FR_法国
       - 🇩🇪 DE-89.163.140.153-07...
-      - 4Nika-6717
-      - 🇳🇱 Netherlands(ChatGPT) 07 TG@SSRSUB
-      - 🇫🇷 法国_0419010
-      - 🇫🇷 FR-195.154.185.174-0...
-      - 🇳🇱 荷兰_0419016
-      - 🇳🇱 Netherlands(ChatGPT) 01 TG@SSRSUB
-      - 🇳🇱 荷兰_0419017
-      - 🇩🇪 DE-143.42.26.44-0812...
-      - 🇩🇪 DE-172.105.251.205-0...
-      - 🇩🇪 德国_0419011
-      - 🇩🇪 DE-172.104.132.14-08...
+      - SA-51.15.0.113-0786 | ...
       - CH-156.146.62.160-0800...
-      - 🇳🇱 荷兰_0419001
-      - 🇩🇪 DE-157.90.4.240-0815...
-      - 🇩🇪 Germany(ChatGPT) 03 TG@SSRSUB
-      - "|19.52Mb"
-      - EC-179.49.5.114-0819 |...
-      - 🇳🇱 荷兰_0419030
-      - CL-190.120.230.9-0793 ...
-      - 🇵🇱 PL-51.77.57.30-0846 ...
+      - 🇫🇷 _FR_法国_1
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -353,128 +353,128 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 github.com/freefq - 香港  1
-      - 🇭🇰 香港_0419025
       - 🇭🇰 香港_0419101
-      - 🇯🇵 JP-43.207.118.38-010...
-      - 🇰🇷 South Korea 03 TG@SSRSUB
-      - 🇯🇵 日本_0419042
-      - 🇭🇰 _HK_香港_5
-      - 🇰🇷 韩国_0419001
-      - 🇸🇬 新加坡_0419433
-      - 🇸🇬 新加坡_0419010
-      - 🇸🇬 SG-139.162.5.19-0838...
+      - 🇭🇰 香港_0419025
+      - 🇭🇰 github.com/freefq - 香港  1
       - 🇯🇵 日本_0419036
-      - 🇯🇵 日本_0419070
+      - 🇰🇷 South Korea 03 TG@SSRSUB
+      - 🇯🇵 日本 049
+      - 🇭🇰 _HK_香港_5
+      - 🇸🇬 新加坡_0419010
+      - 🇰🇷 韩国_0419001
+      - 🇸🇬 SG-139.162.5.19-0838...
+      - 🇯🇵 日本_0419042
+      - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
       - 🇸🇬 新加坡_0419024
       - 🇰🇷 韩国_0419005
-      - 🇭🇰 _HK_香港 3
+      - 🇯🇵 日本_0419070
       - 🇯🇵 日本_0419023
-      - 🇯🇵 日本 010
+      - Relay_-🇸🇬SG_1493
       - 🇭🇰 香港【付费推荐：v1.mk/vip】39
-      - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
+      - 🇯🇵 日本 010
       - 🇸🇬 SG-139.162.41.174-55...
-      - 🇯🇵 _JP_日本 2
-      - 🇸🇬 新加坡_0419052
-      - Relay_-🇸🇬SG_1503
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0419020
-      - 🇰🇷 韩国_0419002
+      - 🇸🇬 新加坡_0419052
+      - 🇭🇰 Hong Kong(ChatGPT) 37 TG@SSRSUB
       - 🇸🇬 _SG_新加坡->🇮🇩_ID_印度尼西亚
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - Relay_-🇸🇬SG_1500
       - 🇭🇰 _HK_香港_6
-      - 🇭🇰 香港 026
-      - 🇰🇷 韩国 010
+      - 🇭🇰 香港A|tg频道@ripaojiedian
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 _JP_日本_1
+      - 🇰🇷 韩国 010 2
+      - 🇭🇰 香港 027
+      - 🇰🇷 _KR_韩国 3
+      - 🇰🇷 _KR_韩国
+      - 🇯🇵 日本_0419001
+      - 🇸🇬 新加坡_0419433
+      - 🇰🇷 韩国_0419002
+      - 🇨🇳 台湾_0419081
       - 🇯🇵 Japan(ChatGPT) 13 TG@SSRSUB
       - 🇸🇬 Singapore 03 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 11 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 07 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 44 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 09 TG@SSRSUB
-      - 🇭🇰 Hong Kong(ChatGPT) 08 TG@SSRSUB
-      - 🇭🇰 Hong Kong 07 TG@SSRSUB
-      - 🇭🇰 Hong Kong 04 TG@SSRSUB
-      - 🇺🇸 美国_0419143
-      - 🇺🇸 United States(ChatGPT) 36 TG@SSRSUB
       - 🇺🇸 美国_0419652
-      - 🇺🇸 美国_0419887
       - 🇺🇸 美国_0419888
-      - 🇺🇸 美国_04191292
-      - 🇺🇸 美国_0419089
-      - 🇺🇸 美国_04191247
-      - 🇺🇸 美国_0419003
-      - 🇺🇸 美国_0419092
-      - 🇺🇸 美国_04191293
-      - 🇺🇸 美国_0419957
-      - 🇺🇸 美国_0419949
-      - 🇺🇸 美国_0419335
-      - 🇺🇸 美国_04191291
-      - 🇺🇸 美国_0419373
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 美国_0419908
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 🇺🇸 美国_0419728
       - 🇺🇸 美国_0419438
-      - 🇺🇸 美国_0419889
-      - 🇺🇸 美国_0419321
-      - 🇺🇸 US-65.49.223.117-074...
-      - 🇺🇸 美国_0419890
-      - 🇺🇸 美国_04191286
+      - 🇺🇸 美国_0419152
+      - 🇺🇸 美国_0419949
+      - 🇺🇸 美国_0419188
+      - 🇺🇸 美国_0419392
+      - 🇺🇸 美国_0419088
+      - 🇺🇸 美国_0419731
+      - 🇺🇸 美国_04193722
+      - 🇺🇸 美国_0419957
+      - 🇺🇸 美国_0419098
+      - 🇺🇸 美国_0419338
+      - 🇺🇸 美国_0419429
+      - 🇺🇸 美国_0419385
+      - 🇺🇸 美国_0419584
+      - 🇺🇸 美国_0419330
+      - 🇺🇸 美国_0419393
+      - 🇺🇸 美国_0419578
+      - 🇺🇸 美国_0419830
+      - 🇺🇸 美国_0419908
+      - 🇺🇸 美国_0419017
+      - 🇨🇾 塞浦路斯_0419006
+      - 🇨🇳 China 03 TG@SSRSUB
+      - 🇮🇷 4Iran-6953
+      - 未知_0419237
+      - 塞舌尔_0419002
       - 未知_0419238
-      - 🇺🇸 United States 03 TG@SSRSUB
-      - 🇫🇷 _FR_法国_1
+      - 未知_0419236
+      - 🇺🇸 United States 09 TG@SSRSUB
+      - 🇬🇧 英国 004
+      - 🇬🇧 GB-212.102.53.196-08...
+      - 🇬🇧 GB-212.102.53.198-07...
+      - GB_07
+      - 🇬🇧 GB-212.102.53.193-07...
+      - 🇬🇧 GB-212.102.53.78-078...
+      - 🇬🇧 GB-212.102.53.195-07...
+      - 🇬🇧 GB-212.102.53.80-078...
+      - 🇬🇧 GB-212.102.53.81-078...
+      - 🇬🇧 GB-212.102.53.197-07...
+      - 🇳🇱 荷兰_0419052
+      - 🇫🇷 _FR_法国
       - 🇩🇪 DE-89.163.140.153-07...
-      - 4Nika-6717
-      - 🇳🇱 Netherlands(ChatGPT) 07 TG@SSRSUB
-      - 🇫🇷 法国_0419010
-      - 🇫🇷 FR-195.154.185.174-0...
-      - 🇳🇱 荷兰_0419016
-      - 🇳🇱 Netherlands(ChatGPT) 01 TG@SSRSUB
-      - 🇳🇱 荷兰_0419017
-      - 🇩🇪 DE-143.42.26.44-0812...
-      - 🇩🇪 DE-172.105.251.205-0...
-      - 🇩🇪 德国_0419011
-      - 🇩🇪 DE-172.104.132.14-08...
+      - SA-51.15.0.113-0786 | ...
       - CH-156.146.62.160-0800...
-      - 🇳🇱 荷兰_0419001
-      - 🇩🇪 DE-157.90.4.240-0815...
-      - 🇩🇪 Germany(ChatGPT) 03 TG@SSRSUB
-      - "|19.52Mb"
-      - EC-179.49.5.114-0819 |...
-      - 🇳🇱 荷兰_0419030
-      - CL-190.120.230.9-0793 ...
-      - 🇵🇱 PL-51.77.57.30-0846 ...
+      - 🇫🇷 _FR_法国_1
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_0419143
-      - 🇺🇸 United States(ChatGPT) 36 TG@SSRSUB
       - 🇺🇸 美国_0419652
-      - 🇺🇸 美国_0419887
       - 🇺🇸 美国_0419888
-      - 🇺🇸 美国_04191292
-      - 🇺🇸 美国_0419089
-      - 🇺🇸 美国_04191247
-      - 🇺🇸 美国_0419003
-      - 🇺🇸 美国_0419092
-      - 🇺🇸 美国_04191293
-      - 🇺🇸 美国_0419957
-      - 🇺🇸 美国_0419949
-      - 🇺🇸 美国_0419335
-      - 🇺🇸 美国_04191291
-      - 🇺🇸 美国_0419373
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 美国_0419908
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 🇺🇸 美国_0419728
       - 🇺🇸 美国_0419438
-      - 🇺🇸 美国_0419889
-      - 🇺🇸 美国_0419321
-      - 🇺🇸 US-65.49.223.117-074...
-      - 🇺🇸 美国_0419890
-      - 🇺🇸 美国_04191286
-      - 🇺🇸 United States 03 TG@SSRSUB
+      - 🇺🇸 美国_0419152
+      - 🇺🇸 美国_0419949
+      - 🇺🇸 美国_0419188
+      - 🇺🇸 美国_0419392
+      - 🇺🇸 美国_0419088
+      - 🇺🇸 美国_0419731
+      - 🇺🇸 美国_04193722
+      - 🇺🇸 美国_0419957
+      - 🇺🇸 美国_0419098
+      - 🇺🇸 美国_0419338
+      - 🇺🇸 美国_0419429
+      - 🇺🇸 美国_0419385
+      - 🇺🇸 美国_0419584
+      - 🇺🇸 美国_0419330
+      - 🇺🇸 美国_0419393
+      - 🇺🇸 美国_0419578
+      - 🇺🇸 美国_0419830
+      - 🇺🇸 美国_0419908
+      - 🇺🇸 美国_0419017
+      - 🇺🇸 United States 09 TG@SSRSUB
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -482,49 +482,49 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 github.com/freefq - 香港  1
-      - 🇭🇰 香港_0419025
       - 🇭🇰 香港_0419101
-      - 🇯🇵 JP-43.207.118.38-010...
-      - 🇰🇷 South Korea 03 TG@SSRSUB
-      - 🇯🇵 日本_0419042
-      - 🇭🇰 _HK_香港_5
-      - 🇰🇷 韩国_0419001
-      - 🇸🇬 新加坡_0419433
-      - 🇸🇬 新加坡_0419010
-      - 🇸🇬 SG-139.162.5.19-0838...
+      - 🇭🇰 香港_0419025
+      - 🇭🇰 github.com/freefq - 香港  1
       - 🇯🇵 日本_0419036
-      - 🇯🇵 日本_0419070
+      - 🇰🇷 South Korea 03 TG@SSRSUB
+      - 🇯🇵 日本 049
+      - 🇭🇰 _HK_香港_5
+      - 🇸🇬 新加坡_0419010
+      - 🇰🇷 韩国_0419001
+      - 🇸🇬 SG-139.162.5.19-0838...
+      - 🇯🇵 日本_0419042
+      - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
       - 🇸🇬 新加坡_0419024
       - 🇰🇷 韩国_0419005
-      - 🇭🇰 _HK_香港 3
+      - 🇯🇵 日本_0419070
       - 🇯🇵 日本_0419023
-      - 🇯🇵 日本 010
+      - Relay_-🇸🇬SG_1493
       - 🇭🇰 香港【付费推荐：v1.mk/vip】39
-      - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
+      - 🇯🇵 日本 010
       - 🇸🇬 SG-139.162.41.174-55...
-      - 🇯🇵 _JP_日本 2
-      - 🇸🇬 新加坡_0419052
-      - Relay_-🇸🇬SG_1503
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0419020
-      - 🇰🇷 韩国_0419002
+      - 🇸🇬 新加坡_0419052
+      - 🇭🇰 Hong Kong(ChatGPT) 37 TG@SSRSUB
       - 🇸🇬 _SG_新加坡->🇮🇩_ID_印度尼西亚
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - Relay_-🇸🇬SG_1500
       - 🇭🇰 _HK_香港_6
-      - 🇭🇰 香港 026
-      - 🇰🇷 韩国 010
+      - 🇭🇰 香港A|tg频道@ripaojiedian
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 _JP_日本_1
+      - 🇰🇷 韩国 010 2
+      - 🇭🇰 香港 027
+      - 🇰🇷 _KR_韩国 3
+      - 🇰🇷 _KR_韩国
+      - 🇯🇵 日本_0419001
+      - 🇸🇬 新加坡_0419433
+      - 🇰🇷 韩国_0419002
+      - 🇨🇳 台湾_0419081
       - 🇯🇵 Japan(ChatGPT) 13 TG@SSRSUB
       - 🇸🇬 Singapore 03 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 11 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 07 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 44 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 09 TG@SSRSUB
-      - 🇭🇰 Hong Kong(ChatGPT) 08 TG@SSRSUB
-      - 🇭🇰 Hong Kong 07 TG@SSRSUB
-      - 🇭🇰 Hong Kong 04 TG@SSRSUB
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -532,74 +532,68 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 South Korea 03 TG@SSRSUB
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 Hong Kong(ChatGPT) 37 TG@SSRSUB
       - 🇯🇵 Japan(ChatGPT) 13 TG@SSRSUB
       - 🇸🇬 Singapore 03 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 11 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 07 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 44 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 09 TG@SSRSUB
-      - 🇭🇰 Hong Kong(ChatGPT) 08 TG@SSRSUB
-      - 🇭🇰 Hong Kong 07 TG@SSRSUB
-      - 🇭🇰 Hong Kong 04 TG@SSRSUB
-      - 🇺🇸 United States(ChatGPT) 36 TG@SSRSUB
+      - 🇨🇾 塞浦路斯_0419006
+      - 🇨🇳 China 03 TG@SSRSUB
+      - 🇮🇷 4Iran-6953
+      - 未知_0419237
+      - 塞舌尔_0419002
       - 未知_0419238
-      - 🇺🇸 United States 03 TG@SSRSUB
-      - 🇫🇷 _FR_法国_1
+      - 未知_0419236
+      - 🇺🇸 United States 09 TG@SSRSUB
+      - 🇬🇧 英国 004
+      - 🇬🇧 GB-212.102.53.196-08...
+      - 🇬🇧 GB-212.102.53.198-07...
+      - GB_07
+      - 🇬🇧 GB-212.102.53.193-07...
+      - 🇬🇧 GB-212.102.53.78-078...
+      - 🇬🇧 GB-212.102.53.195-07...
+      - 🇬🇧 GB-212.102.53.80-078...
+      - 🇬🇧 GB-212.102.53.81-078...
+      - 🇬🇧 GB-212.102.53.197-07...
+      - 🇳🇱 荷兰_0419052
+      - 🇫🇷 _FR_法国
       - 🇩🇪 DE-89.163.140.153-07...
-      - 4Nika-6717
-      - 🇳🇱 Netherlands(ChatGPT) 07 TG@SSRSUB
-      - 🇫🇷 法国_0419010
-      - 🇫🇷 FR-195.154.185.174-0...
-      - 🇳🇱 荷兰_0419016
-      - 🇳🇱 Netherlands(ChatGPT) 01 TG@SSRSUB
-      - 🇳🇱 荷兰_0419017
-      - 🇩🇪 DE-143.42.26.44-0812...
-      - 🇩🇪 DE-172.105.251.205-0...
-      - 🇩🇪 德国_0419011
-      - 🇩🇪 DE-172.104.132.14-08...
+      - SA-51.15.0.113-0786 | ...
       - CH-156.146.62.160-0800...
-      - 🇳🇱 荷兰_0419001
-      - 🇩🇪 DE-157.90.4.240-0815...
-      - 🇩🇪 Germany(ChatGPT) 03 TG@SSRSUB
-      - "|19.52Mb"
-      - EC-179.49.5.114-0819 |...
-      - 🇳🇱 荷兰_0419030
-      - CL-190.120.230.9-0793 ...
-      - 🇵🇱 PL-51.77.57.30-0846 ...
+      - 🇫🇷 _FR_法国_1
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_0419143
-      - 🇺🇸 United States(ChatGPT) 36 TG@SSRSUB
       - 🇺🇸 美国_0419652
-      - 🇺🇸 美国_0419887
       - 🇺🇸 美国_0419888
-      - 🇺🇸 美国_04191292
-      - 🇺🇸 美国_0419089
-      - 🇺🇸 美国_04191247
-      - 🇺🇸 美国_0419003
-      - 🇺🇸 美国_0419092
-      - 🇺🇸 美国_04191293
-      - 🇺🇸 美国_0419957
-      - 🇺🇸 美国_0419949
-      - 🇺🇸 美国_0419335
-      - 🇺🇸 美国_04191291
-      - 🇺🇸 美国_0419373
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 美国_0419908
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 🇺🇸 美国_0419728
       - 🇺🇸 美国_0419438
-      - 🇺🇸 美国_0419889
-      - 🇺🇸 美国_0419321
-      - 🇺🇸 US-65.49.223.117-074...
-      - 🇺🇸 美国_0419890
-      - 🇺🇸 美国_04191286
-      - 🇺🇸 United States 03 TG@SSRSUB
+      - 🇺🇸 美国_0419152
+      - 🇺🇸 美国_0419949
+      - 🇺🇸 美国_0419188
+      - 🇺🇸 美国_0419392
+      - 🇺🇸 美国_0419088
+      - 🇺🇸 美国_0419731
+      - 🇺🇸 美国_04193722
+      - 🇺🇸 美国_0419957
+      - 🇺🇸 美国_0419098
+      - 🇺🇸 美国_0419338
+      - 🇺🇸 美国_0419429
+      - 🇺🇸 美国_0419385
+      - 🇺🇸 美国_0419584
+      - 🇺🇸 美国_0419330
+      - 🇺🇸 美国_0419393
+      - 🇺🇸 美国_0419578
+      - 🇺🇸 美国_0419830
+      - 🇺🇸 美国_0419908
+      - 🇺🇸 美国_0419017
+      - 🇺🇸 United States 09 TG@SSRSUB
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -607,35 +601,33 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 github.com/freefq - 香港  1
-      - 🇭🇰 香港_0419025
       - 🇭🇰 香港_0419101
+      - 🇭🇰 香港_0419025
+      - 🇭🇰 github.com/freefq - 香港  1
       - 🇭🇰 _HK_香港_5
-      - 🇭🇰 _HK_香港 3
       - 🇭🇰 香港【付费推荐：v1.mk/vip】39
+      - 🇭🇰 Hong Kong(ChatGPT) 37 TG@SSRSUB
       - 🇭🇰 _HK_香港_6
-      - 🇭🇰 香港 026
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 44 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 09 TG@SSRSUB
-      - 🇭🇰 Hong Kong(ChatGPT) 08 TG@SSRSUB
-      - 🇭🇰 Hong Kong 07 TG@SSRSUB
-      - 🇭🇰 Hong Kong 04 TG@SSRSUB
+      - 🇭🇰 香港A|tg频道@ripaojiedian
+      - 🇭🇰 香港 027
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_0419433
       - 🇸🇬 新加坡_0419010
       - 🇸🇬 SG-139.162.5.19-0838...
       - 🇸🇬 新加坡_0419024
+      - Relay_-🇸🇬SG_1493
       - 🇸🇬 SG-139.162.41.174-55...
-      - 🇸🇬 新加坡_0419052
-      - Relay_-🇸🇬SG_1503
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0419020
+      - 🇸🇬 新加坡_0419052
       - 🇸🇬 _SG_新加坡->🇮🇩_ID_印度尼西亚
+      - Relay_-🇸🇬SG_1500
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇸🇬 新加坡_0419433
       - 🇸🇬 Singapore 03 TG@SSRSUB
   - name: 日本
     type: url-test
@@ -643,13 +635,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP-43.207.118.38-010...
-      - 🇯🇵 日本_0419042
       - 🇯🇵 日本_0419036
+      - 🇯🇵 日本 049
+      - 🇯🇵 日本_0419042
       - 🇯🇵 日本_0419070
       - 🇯🇵 日本_0419023
       - 🇯🇵 日本 010
-      - 🇯🇵 _JP_日本 2
+      - 🇯🇵 _JP_日本_1
+      - 🇯🇵 日本_0419001
       - 🇯🇵 Japan(ChatGPT) 13 TG@SSRSUB
   - name: 台湾
     type: url-test
@@ -658,11 +651,10 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 台湾【付费推荐：v1.mk/vip】35
+      - 🇨🇳 台湾_0419081
       - 🇨🇳 Taiwan(ChatGPT) 11 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 07 TG@SSRSUB
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -672,8 +664,10 @@ proxy-groups:
       - 🇰🇷 South Korea 03 TG@SSRSUB
       - 🇰🇷 韩国_0419001
       - 🇰🇷 韩国_0419005
+      - 🇰🇷 韩国 010 2
+      - 🇰🇷 _KR_韩国 3
+      - 🇰🇷 _KR_韩国
       - 🇰🇷 韩国_0419002
-      - 🇰🇷 韩国 010
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
